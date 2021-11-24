@@ -2,7 +2,7 @@ package com.Stacks_and_Queues;
 
 public class Stacks_and_Queues {
 
-	 Node head;
+	   Node head;
 	    Node tail;
 	    Node top;
 
@@ -17,29 +17,31 @@ public class Stacks_and_Queues {
 	            this.head = newnode;
 	            newnode.next = tempNode;
 	        }
-	        top = head;
+	        top=head;
 	        return newnode;
 	    }
 
 
-	    public void display() {
+
+
+	    public void display(){
 	        if (head == null) {
 	            System.out.println("Linked list is Empty");
 	            return;
 	        } else {
-	            System.out.print(" The stack elements are ");
+	            System.out.print("\n The stack elements are ");
 	            Node tempNode = head;
 	            while (tempNode != null) {
-	                if (tempNode.next != null) {
+	                if(tempNode.next !=null) {
 	                    System.out.print(tempNode.data + " -> ");
 	                    tempNode = tempNode.next;
-	                } else {
+	                }
+	                else {
 	                    System.out.print(tempNode.data);
-	                    tempNode = tempNode.next;
+	                    tempNode=tempNode.next;
 	                }
 	            }
 	        }
 
+	    }
 	}
-
-}

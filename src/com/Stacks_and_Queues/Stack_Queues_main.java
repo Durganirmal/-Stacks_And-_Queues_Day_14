@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Stack_Queues_main {
 
 	 public static void main(String[] args) {
-	        System.out.println("Welcome to the data Structure in 'Stack and Quuqe' Program!!");
+	        System.out.println("Welcome to the data Structure in 'Stack and Queue' Program!!");
 	        Scanner sc = new Scanner(System.in);
 	        System.out.println("Press '1' to add element at the start  ");
 	        switch (sc.nextInt()) {
@@ -18,5 +18,3 @@ public class Stack_Queues_main {
 	        }
 	    }
 	}
-
-
